@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalProcessed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PHASE INHERITANCE/Payment Gateway.sol": "PercentageChargeProcessor"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PHASE INHERITANCE/Payment Gateway.sol": {
+			"keccak256": "0xd7344c96be689c8b0f2cf79f2f0395ab001f65df33360a14fa0e6da0f24ae922",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2352653d1f640066255f4ca75e33ed19fb1dd9341e077256c2450ad8839b2e89",
+				"dweb:/ipfs/QmTaFxRDyjqLS6d2NjfpL9H8NL1LSt7PWecmUpQGt5LNwa"
+			]
+		}
+	},
+	"version": 1
+}
